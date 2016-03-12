@@ -1,0 +1,18 @@
+//- Loops of Resource (site) buttons
+.resource.col-xxs-12.col-xs-6.col-md-4.col-lg-3(ng-repeat="site in sites | filter:rsFilter | filter:(selectedTab || '') && {Category: selectedTab} | orderBy: 'Name'")
+  a.rs-btn.btn.btn-default.no-wrap(role="button" href="{{ site.URL }}" target="_blank" title="{{ site.URL }}")
+    img.rs-icon(src="{{ site.Image }}" alt="{{ site.Title }}")
+    span  {{ site.Name }} - {{ site.Title }}
+
+//- Alternative View
+//- .resource.col-xxs-12.col-xs-6.col-md-4.col-lg-3(ng-model='{{ tab.Name }}', ng-repeat="site in resources | filter:rsFilter | orderBy: 'Name'")
+
+//- .resource.col-xxs-12.col-xs-6.col-md-4.col-lg-3(ng-repeat="site in sites | filter:rsFilter | filter:(selectedTab || '') && {Category: selectedTab} | orderBy: 'Name'")
+//-   .rs-panel.panel.panel-default
+//-     .panel-heading
+//-       a.no-wrap(href="{{ site.URL }}" target="_blank" title="{{ site.URL }}")
+//-         img.rs-icon(src="{{ site.Image }}" alt="{{ site.Title }}")
+//-         span  {{ site.Name }} - {{ site.Title }}
+//-     .panel-body.no-wrap
+//-       p {{ site.Description }}
+//-       p.no-wrap.small.text-muted {{ site.URL }}
