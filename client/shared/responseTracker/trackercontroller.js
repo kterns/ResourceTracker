@@ -4,7 +4,7 @@ app.controller('responseTrackerController', function($scope, responseTrackerServ
   init();
 
 	function init() {
-		trackersService.getData()
+		responseTrackerService.getData()
       .then(function(response) {
         $scope.tabs = response.data.categories;
         $scope.sites = response.data.sites;
