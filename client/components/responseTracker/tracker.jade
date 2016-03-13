@@ -1,0 +1,12 @@
+div.container
+  //- h3 Response Tracker
+  //-   span.small.text-muted  { Canned Response Manager }
+  //- form.form-inline
+  //-   div.form-group
+  //-     input.form-control(type="textbox" placeholder="Search Responses..." ng-model="rsFilter" autofocus)
+  //-   input.btn.btn-default.btn-primary(type="reset" value="Clear" ng-click="rsFilter = undefined")
+  //- hr
+  div(role='tabpanel', ng-include="'templates/nav/tabs.html'")
+  div.tab-content
+    #tab.tab-pane.active(role='tabpanel')
+      row(ng-include="'templates/response/response.html'")

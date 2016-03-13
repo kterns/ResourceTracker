@@ -6,8 +6,8 @@ app.controller('responseTrackerController', function($scope, responseTrackerServ
 	function init() {
 		responseTrackerService.getData()
       .then(function(response) {
-        $scope.tabs = response.data.categories;
-        $scope.sites = response.data.sites;
+        $scope.tabs = response.data.tabs;
+        $scope.responses = response.data.tracker;
 
         $scope.selectedTab = 0; //set selected tab to the 1st by default.
       });

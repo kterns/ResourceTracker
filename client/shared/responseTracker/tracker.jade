@@ -1,9 +1,0 @@
-.container
-  h3 Response Tracker
-    span.small.text-muted  The canned response manager
-  form.form-inline
-    .form-group
-      input.form-control(type="textbox" placeholder="Search Links..." ng-model="rsFilter" autofocus)
-    input.btn.btn-default.btn-primary(type="reset" value="Clear" ng-click="rsFilter = undefined")
-  hr
-  div(role='tabpanel', ng-include="'templates/tabs/tabs.html'")

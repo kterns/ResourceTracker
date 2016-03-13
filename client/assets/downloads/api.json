@@ -1,43 +1,16 @@
 {
-  "categories": [
-    {"CatId": "0", "Name": "All"},
-    {"CatId": "1", "Name": "Design"},
-    {"CatId": "2", "Name": "Frontend"},
-    {"CatId": "3", "Name": "Frontend Frameworks"},
-    {"CatId": "4", "Name": "Backend"},
-    {"CatId": "5", "Name": "SQL"},
-    {"CatId": "6", "Name": "DevTools"},
-    {"CatId": "7", "Name": "SvrTools"}
+  "tabs": [
+    {"id": "0", "Name": "All"},
+    {"id": "1", "Name": "Account Verfication"},
+    {"id": "2", "Name": "Account Change"},
+    {"id": "3", "Name": "Account Setup"},
+    {"id": "4", "Name": "Order Status"},
+    {"id": "5", "Name": "Promos"},
+    {"id": "6", "Name": "Billing"}
   ],
-  "sites": [
-    {"ResourceId": "1", "Name": "W3Schools","Title":"CSS Tutorial","URL":"http://www.w3schools.com/css/default.asp", "Image":"http://www.w3schools.com/favicon.ico", "Category":2},
-    {"ResourceId": "2", "Name":"GitHub","Title":"Code Repository","URL":"http://github.com/", "Image":"https://assets-cdn.github.com/favicon.ico","Category":6},
-    {"ResourceId": "3", "Name":"Jade","Title":"Template Engine","URL":"http://jade-lang.com/reference/", "Image":"assets/images/no-favicon.ico","Category":2},
-    {"ResourceId": "4", "Name":"Bootstrap","Title":"Templates","URL":"http://getbootstrap.com/getting-started/#examples", "Image":"http://getbootstrap.com/favicon.ico","Category":3},
-    {"ResourceId": "5", "Name":"AngularJS","Title":"API Reference","URL":"https://docs.angularjs.org/api", "Image":"https://angularjs.org/favicon.ico","Category":3},
-    {"ResourceId": "6", "Name":"CodePen","Title":"Design Patterns","URL":"http://codepen.io/patterns/", "Image":"http://codepen.io/favicon.ico","Category":6},
-    {"ResourceId": "7", "Name":"PHP","Title":"Manual","URL":"http://php.net/manual/en/", "Image":"http://php.net/favicon.ico","Category":4},
-    {"ResourceId": "8", "Name":"PHP: The Right Way","Title":"Guide","URL":"http://www.phptherightway.com/", "Image":"http://www.phptherightway.com/images/favicon.png","Category":4},
-    {"ResourceId": "9", "Name":"DevTips","Title":"Parallax Examples","URL":"https://github.com/DevTips/Parallax-on-the-Web-DevTips-", "Image":"https://assets-cdn.github.com/favicon.ico","Category":2},
-    {"ResourceId": "10", "Name":"Google Analytics","Title":"Dashboard","URL":"https://www.google.com/analytics/web/#dashboard/", "Image":"https://www.google.com/analytics/favicon.ico","Category":7},
-    {"ResourceId": "11", "Name":"Gulp.js","Title":"Plugins","URL":"http://gulpjs.com/plugins/", "Image":"http://gulpjs.com/favicon.ico","Category":6},
-    {"ResourceId": "12", "Name":"Codecademy","Title":"Learn","URL":"https://www.codecademy.com/learn/", "Image":"https://www.codecademy.com/favicon.ico","Category":6},
-    {"ResourceId": "13", "Name":"CSS-Tricks","Title":"Examples","URL":"https://css-tricks.com/snippets/css/", "Image":"https://css-tricks.com/favicon.ico","Category":2},
-    {"ResourceId": "14", "Name":"Sass","Title":"Guide","URL":"http://sass-lang.com/guide/", "Image":"http://sass-lang.com/favicon.ico","Category":2},
-    {"ResourceId": "15", "Name":"W3C","Title":"Standards","URL":"https://www.w3.org/standards/", "Image":"https://www.w3.org/favicon.ico","Category":6},
-    {"ResourceId": "16", "Name":"Stack Overflow","Title":"Dev Q&A","URL":"http://stackoverflow.com/", "Image":"http://stackoverflow.com/favicon.ico","Category":6},
-    {"ResourceId": "17", "Name":"YouTube DevTips","Title":"Channel","URL":"https://www.youtube.com/user/DevTipsForDesigners", "Image":"https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico","Category":6},
-    {"ResourceId": "18", "Name":"mydevice.io","Title":"Screen Sizes","URL":"http://mydevice.io/devices/", "Image":"http://mydevice.io/favicon.ico","Category":6},
-    {"ResourceId": "19", "Name":"Google","Title":"Search Engine","URL":"https://www.google.com/", "Image":"https://www.google.com/favicon.ico","Category":6},
-    {"ResourceId": "20", "Name":"Packagist","Title":"PHP Packages","URL":"https://packagist.org/", "Image":"https://packagist.org/favicon.ico","Category":4},
-    {"ResourceId": "21", "Name":"JS: The Right Way","Title":"Guide","URL":"http://jstherightway.org/", "Image":"http://jstherightway.org/favicon.ico","Category":2},
-    {"ResourceId": "22", "Name":"Angular Material","Title":"Reference","URL":"https://material.angularjs.org/latest/", "Image":"https://www.angularjs.org/favicon.ico","Category":3},
-    {"ResourceId": "23", "Name":"W3Schools","Title":"HTML Color Picker","URL":"http://www.w3schools.com/colors/colors_picker.asp", "Image":"http://www.w3schools.com/favicon.ico","Category":1},
-    {"ResourceId": "24", "Name":"W3Schools","Title":"SQL Tutorial","URL":"http://www.w3schools.com/sql/default.asp", "Image":"http://www.w3schools.com/favicon.ico","Category":5},
-    {"ResourceId": "25", "Name":"jQuery","Title":"Learning Center","URL":"http://learn.jquery.com/", "Image":"http://learn.jquery.com/favicon.ico","Category":3},
-    {"ResourceId": "26", "Name":"jQuery UI","Title":"Reference","URL":"http://jqueryui.com/", "Image":"http://jqueryui.com/favicon.ico","Category":3},
-    {"ResourceId": "27", "Name":"Font Awesome","Title":"Icons","URL":"https://fortawesome.github.io/Font-Awesome/icons/", "Image":"https://fortawesome.github.io/Font-Awesome/assets/ico/favicon.ico","Category":1},
-    {"ResourceId": "28", "Name":"GulpJS","Title":"Docs","URL":"https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md", "Image":"https://assets-cdn.github.com/favicon.ico","Category":6},
-    {"ResourceId": "29", "Name":"Google Fonts","Title":"Free Fonts","URL":"https://www.google.com/fonts", "Image":"https://www.google.com/fonts/fonts-64.png","Category":1}
+  "tracker": [
+    {"id": "1", "Title": "No Email, No Name","Text":"I apologize for yo issue. Better luck next time. Oh, and don't use IE you noob.","Shortcut":"ctrl-shft-c", "Category":1},
+    {"id": "2", "Title": "No Email, Yes Name","Text":"I apologize for yo issue. Better luck next time. Oh, and don't use IE you noob.","Shortcut":"ctrl-shft-c", "Category":1},
+    {"id": "3", "Title": "Yes Email, No Name","Text":"I apologize for yo issue. Better luck next time. Oh, and don't use IE you noob.","Shortcut":"ctrl-shft-c", "Category":1}
   ]
 }

@@ -1,0 +1,16 @@
+//- Collection of Resource (site) buttons
+//- .resource.col-xxs-12.col-xs-6.col-md-4.col-lg-3(ng-repeat="site in sites | filter:rsFilter | filter:(selectedTab || '') && {Category: selectedTab} | orderBy: 'Name'")
+//-   a.rs-btn.btn.btn-default.no-wrap(role="button" href="{{ site.URL }}" target="_blank" title="{{ site.URL }}")
+//-     span  {{ site.Name }} - {{ site.Title }}
+
+//- Collection of Response panels
+//- div.resource.col-xxs-12.col-xs-6.col-md-4.col-lg-3(ng-repeat="response in responses | filter:rsFilter | filter:(selectedTab || '') && {Category: selectedTab} | orderBy: 'Title'")
+div.widget.col-xxs-12.col-xs-6.col-md-4.col-lg-3(ng-repeat="response in responses | filter:$parent.rsFilter | filter:(selectedTab || '') && {Category: selectedTab}")
+  div.rs-panel.panel.panel-default
+    div.panel-heading
+      a {{ response.Title }}
+      input.btn.btn-default(type="submit" value="Copy")
+    div.panel-body
+      p.small.text-muted {{ response.Text }}
+
+//- Response Text Editor
