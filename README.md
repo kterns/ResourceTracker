@@ -1,43 +1,43 @@
 # Response Tracker
-A simple canned response manager built with AngularJS
+Canned response manager built with AngularJS
 
-## System Preparation
-
-To use this site, you'll need the following module installed on your machine.
-
-1. [NodeJS](http://nodejs.org) - use the installer.
-
-## Local Installation
+## To run project locally
 
 1. Clone this repo, or download it into a directory of your choice.
-2. Inside the directory, run `npm install`.
+2. If you haven't already, install [NodeJS](http://nodejs.org).
+3. Inside the directory, run
+```shell
+npm install
+```
+4. Rename **gulpfile-RenameMe.js** to **gulpfile.js**.
+5. Build the site, start a [local server](http://localhost:8079), and watch for file changes.
+```shell
+$ gulp
+```
 
-## Usage
+## Some common commands
 
-Build the website
+Build the web site and start node server at http://localhost:8079, and watch files for changes.
 
 ```shell
 $ gulp
 ```
 
-Do an automatic build on file changes
-
-```shell
-$ gulp watch
-```
-
-Start a server on localhost:8079 and watch for file changes
-
-```shell
-$ gulp server
-```
-
-Just build the site
+Build the web site
 ```shell
 $ gulp build
 ```
 
-Build site for production use
+Build the web site for test deployment
+```shell
+$ gulp build --test
+```
+
+Build the web site for production deployment
 ```shell
 $ gulp build --production
 ```
+
+## For other commands
+
+Check the [gulpfile.js](https://github.com/kterns/response-tracker/blob/master/gulpfile-RenameMe.js)
