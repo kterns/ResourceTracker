@@ -5,15 +5,16 @@ Canned response manager built with AngularJS
 
 1. Clone this repo, or download it into a directory of your choice.
 2. If you haven't already, install [NodeJS](http://nodejs.org).
-3. Inside the directory, run
-  ```shell
-  npm install
-  ```
+3. Inside the directory, run:
+```shell
+npm install
+```
+
 4. Rename **gulpfile-RenameMe.js** to **gulpfile.js**.
 5. Build the site, start a [local server](http://localhost:8079), and watch for file changes.
-  ```shell
-  $ gulp
-  ```
+```shell
+$ gulp
+```
 
 ### Some common commands
 
