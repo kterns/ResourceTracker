@@ -6,6 +6,7 @@ Canned response manager built with AngularJS
 1. Clone this repo, or download it into a directory of your choice.
 2. If you haven't already, install [NodeJS](http://nodejs.org).
 3. Inside the directory, run:
+
 ```shell
 npm install
 ```
@@ -41,4 +42,4 @@ $ gulp build --production
 
 ### For other commands
 
-Check the [gulpfile.js](https://github.com/kterns/response-tracker/blob/master/gulpfile-RenameMe.js)
+Check out the [gulpfile.js](https://github.com/kterns/response-tracker/blob/master/gulpfile-RenameMe.js)
