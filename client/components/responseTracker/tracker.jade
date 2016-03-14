@@ -9,4 +9,5 @@ div.container
   div(role='tabpanel', ng-include="'templates/nav/tabs.html'")
   div.tab-content
     #tab.tab-pane.active(role='tabpanel')
-      row(ng-include="'templates/response/response.html'")
+      row.sidebar.col-md-3(ng-include="'templates/nav/sidebar.html'")
+      row.textedit.col-md-9(ng-include="'templates/response/response.html'")

@@ -1,11 +1,11 @@
 //- Nav Tab bar
 
-ul.nav.nav-tabs(role='tablist')
+ul.nav.nav-tabs(role="tablist")
   li.filter-control
     form.form-inline
       div.form-group
         input.form-control(type="textbox" placeholder="Search Responses..." ng-model="$parent.rsFilter" autofocus)
       input.btn.btn-default.btn-primary(type="reset" value="Clear" ng-click="rsFilter = undefined")
-  li(role='presentation', ng-repeat='tab in tabs', ng-click='selectTab($index)', ng-class="{'active':selectedTab == $index}")
-    a(data-target='#tab', aria-controls='home', role='tab', data-toggle='tab')
+  li(role="presentation" ng-repeat="tab in tabs" ng-click="selectTab($index)" ng-class="{'active':selectedTab == $index}")
+    a(data-target="#tab" aria-controls="home" role="tab" data-toggle="tab")
       | {{tab.Name}}

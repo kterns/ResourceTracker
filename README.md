@@ -3,23 +3,23 @@ Canned response manager built with AngularJS
 
 ## Installation
 
-1. Clone this repo, or download it into a directory of your choice.
-2. If you haven't already, install [NodeJS](http://nodejs.org).
-3. Inside the directory, run:
+1. If you haven't already, **Install** [NodeJS](http://nodejs.org).
+2. Clone or [Download](https://github.com/kterns/response-tracker/archive/master.zip) this repo.
+3. Install modules specified in [package.json](https://github.com/kterns/response-tracker/blob/master/package.json).
 ```shell
 $ npm install
 ```
 
 ## Build and start site
-1. Rename the _**gulpfile-RenameMe.js**_ to _**gulpfile.js**_.
-2. Build the site, start a [local server](http://localhost:8079), and watch for file changes.
+1. **Rename** _gulpfile-public.js_ to _gulpfile.js_.
+2. **Build** site, **Start** [local server](http://localhost:8079), and watch for file changes.
 ```shell
 $ gulp
 ```
 
 ### Popular commands
 
-Build the web site and start node server at http://localhost:8079, and watch files for changes.
+Build the web site, start node server at [http://localhost:8079](http://localhost:8079), and watch for file changes.
 
 ```shell
 $ gulp
@@ -42,4 +42,4 @@ $ gulp build --production
 
 ### All commands
 
-Check out the [gulpfile.js](https://github.com/kterns/response-tracker/blob/master/gulpfile-RenameMe.js). Click [here](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) for more information on [Gulp](http://gulpjs.com/).
+Check out the [gulpfile.js](https://github.com/kterns/response-tracker/blob/master/gulpfile-public.js). If you haven't used [Gulp](http://gulpjs.com/), take a look at the [Gulp docs](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
