@@ -8,7 +8,7 @@ Canned response manager built with AngularJS
 3. Inside the directory, run:
 
 ```shell
-npm install
+$ npm install
 ```
 
 4. Rename **gulpfile-RenameMe.js** to **gulpfile.js**.
